@@ -32,7 +32,7 @@ nav{
     background-size: cover;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 10% auto auto 10%;
+    grid-template-rows: 10% auto auto auto auto 10%;
     height: 100vh;
     width: 100%;
     gap: 50px;
@@ -40,7 +40,7 @@ nav{
 }
 
 .grid-container > div {
-      /* background-color: rgba(255, 255, 255, 0.8);  */
+      background-color: rgba(255, 255, 255, 0.8); 
       text-align: center;
       align-content: center;
       padding: 20px 0;
@@ -48,31 +48,29 @@ nav{
 }
 
 .item1 {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-column-end: 5;
 }
 
-.item2 { 
-
-    grid-row-end: span 2;    
-    
-}
-
-.item3{
+.item2{
 	grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 4;
     border-radius: 25px;
     background-color: aquamarine;
 }
 
-.item4{
+.item3{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-end: 5;
 
-    grid-row-end: span 2;
-
+    border-radius: 25px;
+ 
 }
 
-.item5{
-    grid-area: auto/ 1 / auto / 5;
+.item4{
+    grid-area: auto/ 2 / auto / 5;
 }
