@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "activedirectory": "^0.7.2"
+  }
+}
