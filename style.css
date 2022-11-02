@@ -26,6 +26,8 @@ nav{
 } .nav-links ul li:hover::after{
     width: 100%;
 }
+
+
 .grid-container {
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/banner2.jpg);
     background-position: (center);
@@ -40,9 +42,10 @@ nav{
 }
 
 .grid-container > div {
-      /* background-color: rgba(255, 255, 255, 0.8);  */
+      background-color: rgba(255, 255, 255, 0.8); 
       text-align: center;
       align-content: center;
+      vertical-align: middle;
       padding: 20px 0;
       /* font-size: 30px; */
 }
@@ -59,6 +62,7 @@ nav{
     grid-row-end: 4;
     border-radius: 25px;
     background-color: aquamarine;
+
 }
 
 .item3{
